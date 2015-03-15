@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F64CB51AB5DF2F00E96942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F64CB41AB5DF2F00E96942 /* main.m */; };
+		33F64CB81AB5DF2F00E96942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F64CB71AB5DF2F00E96942 /* AppDelegate.m */; };
+		33F64CBA1AB5DF2F00E96942 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F64CB91AB5DF2F00E96942 /* Images.xcassets */; };
+		33F64CBD1AB5DF2F00E96942 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F64CBB1AB5DF2F00E96942 /* MainMenu.xib */; };
+		33F64CC91AB5DF2F00E96942 /* SCTPsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F64CC81AB5DF2F00E96942 /* SCTPsTests.m */; };
+		33F64CD71AB5DF6400E96942 /* libusrsctp.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD31AB5DF6400E96942 /* libusrsctp.0.0.0.dylib */; };
+		33F64CD81AB5DF6400E96942 /* libusrsctp.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD31AB5DF6400E96942 /* libusrsctp.0.0.0.dylib */; };
+		33F64CD91AB5DF6400E96942 /* libusrsctp.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD41AB5DF6400E96942 /* libusrsctp.0.dylib */; };
+		33F64CDA1AB5DF6400E96942 /* libusrsctp.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD41AB5DF6400E96942 /* libusrsctp.0.dylib */; };
+		33F64CDB1AB5DF6400E96942 /* libusrsctp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD51AB5DF6400E96942 /* libusrsctp.a */; };
+		33F64CDC1AB5DF6400E96942 /* libusrsctp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD51AB5DF6400E96942 /* libusrsctp.a */; };
+		33F64CDD1AB5DF6400E96942 /* libusrsctp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD61AB5DF6400E96942 /* libusrsctp.dylib */; };
+		33F64CDE1AB5DF6400E96942 /* libusrsctp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F64CD61AB5DF6400E96942 /* libusrsctp.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F64CC31AB5DF2F00E96942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F64CA71AB5DF2F00E96942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F64CAE1AB5DF2F00E96942;
+			remoteInfo = SCTPs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33F64CAF1AB5DF2F00E96942 /* SCTPs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCTPs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F64CB31AB5DF2F00E96942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F64CB41AB5DF2F00E96942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33F64CB61AB5DF2F00E96942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33F64CB71AB5DF2F00E96942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33F64CB91AB5DF2F00E96942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33F64CBC1AB5DF2F00E96942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		33F64CC21AB5DF2F00E96942 /* SCTPsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCTPsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F64CC71AB5DF2F00E96942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F64CC81AB5DF2F00E96942 /* SCTPsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTPsTests.m; sourceTree = "<group>"; };
+		33F64CD31AB5DF6400E96942 /* libusrsctp.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusrsctp.0.0.0.dylib; sourceTree = "<group>"; };
+		33F64CD41AB5DF6400E96942 /* libusrsctp.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusrsctp.0.dylib; sourceTree = "<group>"; };
+		33F64CD51AB5DF6400E96942 /* libusrsctp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libusrsctp.a; sourceTree = "<group>"; };
+		33F64CD61AB5DF6400E96942 /* libusrsctp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusrsctp.dylib; sourceTree = "<group>"; };
+		33F64CDF1AB5DF7700E96942 /* usrsctp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usrsctp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F64CAC1AB5DF2F00E96942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F64CD71AB5DF6400E96942 /* libusrsctp.0.0.0.dylib in Frameworks */,
+				33F64CDD1AB5DF6400E96942 /* libusrsctp.dylib in Frameworks */,
+				33F64CD91AB5DF6400E96942 /* libusrsctp.0.dylib in Frameworks */,
+				33F64CDB1AB5DF6400E96942 /* libusrsctp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F64CBF1AB5DF2F00E96942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F64CD81AB5DF6400E96942 /* libusrsctp.0.0.0.dylib in Frameworks */,
+				33F64CDE1AB5DF6400E96942 /* libusrsctp.dylib in Frameworks */,
+				33F64CDA1AB5DF6400E96942 /* libusrsctp.0.dylib in Frameworks */,
+				33F64CDC1AB5DF6400E96942 /* libusrsctp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F64CA61AB5DF2F00E96942 = {
+			isa = PBXGroup;
+			children = (
+				33F64CD21AB5DF3C00E96942 /* libsctp */,
+				33F64CB11AB5DF2F00E96942 /* SCTPs */,
+				33F64CC51AB5DF2F00E96942 /* SCTPsTests */,
+				33F64CB01AB5DF2F00E96942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F64CB01AB5DF2F00E96942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CAF1AB5DF2F00E96942 /* SCTPs.app */,
+				33F64CC21AB5DF2F00E96942 /* SCTPsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F64CB11AB5DF2F00E96942 /* SCTPs */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CB61AB5DF2F00E96942 /* AppDelegate.h */,
+				33F64CB71AB5DF2F00E96942 /* AppDelegate.m */,
+				33F64CB91AB5DF2F00E96942 /* Images.xcassets */,
+				33F64CBB1AB5DF2F00E96942 /* MainMenu.xib */,
+				33F64CB21AB5DF2F00E96942 /* Supporting Files */,
+			);
+			path = SCTPs;
+			sourceTree = "<group>";
+		};
+		33F64CB21AB5DF2F00E96942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CB31AB5DF2F00E96942 /* Info.plist */,
+				33F64CB41AB5DF2F00E96942 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F64CC51AB5DF2F00E96942 /* SCTPsTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CC81AB5DF2F00E96942 /* SCTPsTests.m */,
+				33F64CC61AB5DF2F00E96942 /* Supporting Files */,
+			);
+			path = SCTPsTests;
+			sourceTree = "<group>";
+		};
+		33F64CC61AB5DF2F00E96942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CC71AB5DF2F00E96942 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F64CD21AB5DF3C00E96942 /* libsctp */ = {
+			isa = PBXGroup;
+			children = (
+				33F64CDF1AB5DF7700E96942 /* usrsctp.h */,
+				33F64CD31AB5DF6400E96942 /* libusrsctp.0.0.0.dylib */,
+				33F64CD41AB5DF6400E96942 /* libusrsctp.0.dylib */,
+				33F64CD51AB5DF6400E96942 /* libusrsctp.a */,
+				33F64CD61AB5DF6400E96942 /* libusrsctp.dylib */,
+			);
+			name = libsctp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F64CAE1AB5DF2F00E96942 /* SCTPs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F64CCC1AB5DF2F00E96942 /* Build configuration list for PBXNativeTarget "SCTPs" */;
+			buildPhases = (
+				33F64CAB1AB5DF2F00E96942 /* Sources */,
+				33F64CAC1AB5DF2F00E96942 /* Frameworks */,
+				33F64CAD1AB5DF2F00E96942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCTPs;
+			productName = SCTPs;
+			productReference = 33F64CAF1AB5DF2F00E96942 /* SCTPs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F64CC11AB5DF2F00E96942 /* SCTPsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F64CCF1AB5DF2F00E96942 /* Build configuration list for PBXNativeTarget "SCTPsTests" */;
+			buildPhases = (
+				33F64CBE1AB5DF2F00E96942 /* Sources */,
+				33F64CBF1AB5DF2F00E96942 /* Frameworks */,
+				33F64CC01AB5DF2F00E96942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F64CC41AB5DF2F00E96942 /* PBXTargetDependency */,
+			);
+			name = SCTPsTests;
+			productName = SCTPsTests;
+			productReference = 33F64CC21AB5DF2F00E96942 /* SCTPsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F64CA71AB5DF2F00E96942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KISSAKI;
+				TargetAttributes = {
+					33F64CAE1AB5DF2F00E96942 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					33F64CC11AB5DF2F00E96942 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 33F64CAE1AB5DF2F00E96942;
+					};
+				};
+			};
+			buildConfigurationList = 33F64CAA1AB5DF2F00E96942 /* Build configuration list for PBXProject "SCTPs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F64CA61AB5DF2F00E96942;
+			productRefGroup = 33F64CB01AB5DF2F00E96942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F64CAE1AB5DF2F00E96942 /* SCTPs */,
+				33F64CC11AB5DF2F00E96942 /* SCTPsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F64CAD1AB5DF2F00E96942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F64CBA1AB5DF2F00E96942 /* Images.xcassets in Resources */,
+				33F64CBD1AB5DF2F00E96942 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F64CC01AB5DF2F00E96942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F64CAB1AB5DF2F00E96942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F64CB81AB5DF2F00E96942 /* AppDelegate.m in Sources */,
+				33F64CB51AB5DF2F00E96942 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F64CBE1AB5DF2F00E96942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F64CC91AB5DF2F00E96942 /* SCTPsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F64CC41AB5DF2F00E96942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F64CAE1AB5DF2F00E96942 /* SCTPs */;
+			targetProxy = 33F64CC31AB5DF2F00E96942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33F64CBB1AB5DF2F00E96942 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F64CBC1AB5DF2F00E96942 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F64CCA1AB5DF2F00E96942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33F64CCB1AB5DF2F00E96942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33F64CCD1AB5DF2F00E96942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SCTPs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33F64CCE1AB5DF2F00E96942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SCTPs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33F64CD01AB5DF2F00E96942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCTPsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCTPs.app/Contents/MacOS/SCTPs";
+			};
+			name = Debug;
+		};
+		33F64CD11AB5DF2F00E96942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCTPsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCTPs.app/Contents/MacOS/SCTPs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F64CAA1AB5DF2F00E96942 /* Build configuration list for PBXProject "SCTPs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F64CCA1AB5DF2F00E96942 /* Debug */,
+				33F64CCB1AB5DF2F00E96942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F64CCC1AB5DF2F00E96942 /* Build configuration list for PBXNativeTarget "SCTPs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F64CCD1AB5DF2F00E96942 /* Debug */,
+				33F64CCE1AB5DF2F00E96942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33F64CCF1AB5DF2F00E96942 /* Build configuration list for PBXNativeTarget "SCTPsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F64CD01AB5DF2F00E96942 /* Debug */,
+				33F64CD11AB5DF2F00E96942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F64CA71AB5DF2F00E96942 /* Project object */;
+}
